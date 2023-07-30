@@ -2,9 +2,7 @@ module tgxpack
 
 go 1.20
 
-require tgxlib v0.0.0
-
-replace tgxlib v0.0.0 => ../tgxlib/
+require github.com/tim-de/tgxlib v0.1.0
 
 require github.com/go-ini/ini v1.67.0
 

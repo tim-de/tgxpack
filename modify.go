@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"tgxlib"
-
+	
+	"github.com/tim-de/tgxlib"
 	"github.com/lithammer/fuzzysearch/fuzzy"
 )
 

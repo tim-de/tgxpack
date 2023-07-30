@@ -6,7 +6,7 @@ import (
 	"log"
 	"path/filepath"
 	//"strings"
-	"tgxlib"
+	"github.com/tim-de/tgxlib"
 )
 
 func extractMod(modpath, outdir string) error {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"tgxlib"
-
+	
+	"github.com/tim-de/tgxlib"
 	"github.com/go-ini/ini"
 )
 
