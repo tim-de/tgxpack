@@ -1,11 +1,9 @@
 package main
+
 import (
-	//"errors"
-	//"fmt"
-	//"os"
 	"log"
 	"path/filepath"
-	//"strings"
+
 	"github.com/tim-de/tgxlib"
 )
 
