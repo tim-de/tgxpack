@@ -1,8 +1,9 @@
 module tgxpack
 
-go 1.20
+go 1.21
 
-require github.com/tim-de/tgxlib v0.1.1
+require github.com/tim-de/tgxlib v0.1.3
+//replace github.com/tim-de/tgxlib v0.1.3 => ../tgxlib
 
 require github.com/go-ini/ini v1.67.0
 
