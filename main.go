@@ -235,7 +235,7 @@ func setupCommand(cCtx *cli.Context) error {
 	// This is a hack to get around string escaping on windows. Where
 	// a path gets autocompleted to a directory it has a backslash
 	// appended. This then leads to the ending doublequote getting
-	// left on the end of the string, cauding problems when you need
+	// left on the end of the string, causing problems when you need
 	// to pack something and it's an invalid filepath because there's
 	// a doublequote on the end of the directory name
 	if len(source) > 0 && source[len(source)-1] == '"' {
